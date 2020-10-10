@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingRingView">
+        <attr name="min_progress" format="integer">0</attr>
+        <attr name="max_progress" format="integer">100</attr>
+        <!--       中间图像资源 -->
+        <attr name="intermediate_image_resources" format="reference|color" />
+        <!--        滑动圆点资源-->
+        <attr name="dot_resources" format="reference|color" />
+        <attr name="is_anim" format="boolean">true</attr>
+    </declare-styleable>
+</resources>
